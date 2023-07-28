@@ -1,0 +1,322 @@
+/* FONTS */
+@font-face {
+    font-family: "DentonCondensedTestBolder";
+	font-display: swap;
+    src: url("../fonts/DentonCondensedTest/DentonCondensedTest-ExtraBold.otf");
+}
+@font-face {
+    font-family: "DentonCondensedTestBold";
+	font-display: swap;
+    src: url("../fonts/DentonCondensedTest/DentonCondensedTest-Bold.otf");
+}
+@font-face {
+    font-family: "DentonCondensedTest";
+	font-display: swap;
+    src: url("../fonts/DentonCondensedTest/DentonCondensedTest-Regular.otf");
+}
+@font-face {
+    font-family: "MadeTommyLight";
+	font-display: swap;
+    src: url("../fonts/MadeTommy/MADE\ TOMMY\ Light_PERSONAL\ USE.otf");
+}
+@font-face {
+    font-family: "MadeTommy";
+	font-display: swap;
+    src: url("../fonts/MadeTommy/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf");
+}
+@font-face {
+    font-family: "MadeTommyBold";
+	font-display: swap;
+    src: url("../fonts/MadeTommy/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf");
+}
+
+/* CUMMON STYLES */
+body{
+	color: #424242 !important;
+	margin: 0;
+	padding: 0;
+}
+
+/* FLEX AND GRID */
+.grid{ display: grid; }
+.flex{ display: flex; }
+.flex-wrap{ flex-wrap: wrap; }
+.vertical-center{ align-items: center; }
+.horizontal-center{ justify-content: center; }
+.all-center{ justify-content: center; align-items: center; }
+
+.justify-between{ justify-content: space-between; }
+.justify-evenly{ justify-content: space-evenly; }
+.justify-end{ justify-content: flex-end; }
+
+.d-mobile{ display: none !important; }
+
+/* MARGIN AND PADDING */
+.no-margin{
+	margin: 0px !important;
+}
+.m-10{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.mt-20{ margin-top: 20px !important; }
+.mt-50{ margin-top: 50px !important; }
+.mb-50{ margin-top: 50px !important; }
+.p-10{ padding: 10px; }
+.p-20{ padding: 20px !important; }
+.p-30{ padding: 30px !important; }
+.p-40{ padding: 40px !important; }
+.p-top-80{ padding-top: 80px; }
+.p-top-40{ padding-top: 40px; }
+.pb-40{ padding-bottom: 40px !important; } 
+.pr-0{ padding-right: 0px !important;}
+.pb-0{ padding-bottom: 60px !important; }
+.w-100{ max-width: 100% !important; }
+
+/* INPUT */
+.bt-input{
+	border-top: solid 2px #000 !important;
+}
+.bb-input{
+	border-bottom: solid 2px #000 !important;
+}
+
+/* COLORS */
+
+.bg-blue{ background-color: blue; }
+.bg-red{ background-color: red; }
+.bg-green{ background-color: green; }
+.bg-black{ background-color: black; }
+.whatsapp{ background: #34aF23 !important;}
+
+/* CUMMON STYLES */
+.event, .author, .form, .comments{
+	background-color:rgba(255, 255, 255, 0.6);
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.event-title h2, .author-title h2, .comments-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.2rem;
+	font-weight: 800;
+}
+.author-about-title h2, .form-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 800;
+	text-align: center;
+}
+  
+/* HOME STYLES */
+.bg-home{ display: none; }
+.bg-home-mobile{ display: none; }
+.home-container{
+	position: relative;
+	padding-top: 40px;
+	align-items: center;
+    top: 0;
+    height: 100%;
+}
+.home, .home-wrapper{
+	position: relative;
+	width: 100%;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.home-content img{
+	width: 320px;
+	margin-left: -15px;
+}
+.home-main-title {
+	width: max-content;
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid #424242;
+}
+.home-main-title .small, .home-main-title .big{
+	text-align: center;
+	color: #424242;
+	margin: 0;
+}
+.home-main-title .small{
+	font-size: 14px;
+	margin-top: -15px;
+	background-color: white;
+}
+.home-main-title .big{
+	font-size: 32px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+.home-sub-title h3{
+	font-family: "DentonCondensedTestBolder";
+	font-size: 1.6rem;
+	line-height: 2rem;
+	letter-spacing: .1rem;
+}
+.home-sub-text p{
+	font-family: "MadeTommyLight";
+	font-size: 1.1rem;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	line-height: 1.4rem;
+}
+.home-form{
+	max-width: 400px;
+	text-align: justify;
+}
+.home-form-title h2{
+    font-family: "MadeTommyBold";
+	font-size: 1.2rem;
+	letter-spacing: .15rem;
+}
+.home-form-text p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	line-height: normal;
+	color: #505050;
+}
+.home-form-input-wrapper, .form-form-input-wrapper{
+	width: 98%;
+	text-align: center;
+	padding: 0px 6px;
+}
+.home-form-input, .form-form-input{
+	max-width: 100%;
+	border-radius: 5px;
+	padding: 2px 14px;
+	opacity: 0.5;
+	color: gray;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	outline: none;
+	margin-bottom: 12px;
+	border: solid 2px #000;
+}
+.home-form-button, .form-form-button{
+	width: 100%;
+	background: linear-gradient(to bottom, #396bd0 50%, #1a317e 100%);
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 800;
+	padding: 8px 20px;
+	border-radius: 22px;
+	border: none;
+	margin-top: 8px;
+}
+.home-form-button:hover, .form-form-button:hover{
+	background: #1a317e;
+}
+.home-marketing h2{
+	font-family: 'MadeTommy', sans-serif;
+	font-size: 1rem;
+	letter-spacing: .22rem;
+	margin-top: 12px;
+	text-align: center;
+}
+
+/* EVENT STYLES */
+.event-forYou-wrapper{
+	max-width: 386px;
+	max-height: 150px;
+	transform: scale(1.2);
+	margin: 56px auto;
+	padding: 15px;
+	border-radius: 5px;
+	border: dashed 3px #424242;
+}
+.event-forYou-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 226px !important;
+	height: 80px;
+	text-align: left;
+}
+.event-forYou-text p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: .86rem;
+	line-height: 1rem;
+	margin: 0 !important;
+}
+.event-forYou-number-wrapper div{
+	display: none;
+}
+.event-forYou-number-wrapper{
+	position: relative;
+	padding-right: 0px !important;
+}
+.event-forYou-check{
+	position: absolute;
+    bottom: 40px;
+    right: -25px;
+}
+.event-forYou-number{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 6rem;
+	color: transparent;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #424242;
+}
+.event-forYou-bigbox, .author-about-bigbox, .form-form-bigbox, .comments-video-bigbox{
+	padding: 30px;
+}
+
+/* AUTHOR STYLES */
+.author-about-text{
+	margin-top: 16px;
+}
+.author-about-text p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	line-height: 1.2rem;
+	font-weight: 500;
+	text-align: justify;
+}
+.author-img-wrapper img{
+	max-width: 400px;
+}
+
+/* FORM STYLES */
+.form-sub-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 1.2rem;
+	margin-top: 30px;
+}
+.form-form{
+	max-width: 400px;
+	margin: auto;
+}
+.form-form-title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1.2rem;
+	margin: 0;
+}
+.last-form{
+	margin-top: 50px;
+	padding-bottom: 60px;
+}
+
+/* COMMENTS STYLES */
+.comment-video-footer{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: .8rem;
+	margin-top: 10px;
+}
+.comments-video{
+	width: 100%;
+	height: 200px;
+	border-radius: 6px;
+}
+.comments-video iframe{
+	border-radius: 6px;
+}
